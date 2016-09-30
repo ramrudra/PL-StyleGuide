@@ -1,0 +1,88 @@
+/**
+ * This stylesheet is for styles you want to include only when displaying demo
+ * styles for grids, animations, color swatches, etc.
+ * These styles will not be your production CSS.
+ */
+#sg-patterns {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  max-width: 100%;
+  padding: 0 0.5em;
+}
+
+.demo-animate {
+  background: #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sg-colors {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sg-colors li {
+  display: inline-block;
+  padding: .75em;
+  margin: 0 0.5em 0.5em 0;
+  min-width: 5em;
+  max-width: 15em;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.sg-colors li p {
+  color: #757575;
+  margin: 0;
+  font-style: italic;
+}
+
+.sg-colors li:nth-child(odd) {
+  border-right: 1px solid #d4d4d4;
+}
+
+.sg-colors li:nth-child(even) {
+  padding: 0;
+  padding-left: 15px;
+}
+
+.sg-swatch {
+  display: inline-block;
+  height: 4em;
+  margin-bottom: 0.3em;
+  vertical-align: top;
+  width: 64px;
+}
+
+.sg-right {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 7px 0;
+}
+
+.sg-label {
+  font-size: 90%;
+  line-height: 1;
+}
+
+.section {
+  margin: 0 0 1em;
+    display: inline-block;
+    width: 49.75%;
+    vertical-align: top;
+}
+
+.section > p {
+  color: #757575;
+}
+
+.section__detail p {
+  line-height: 60px;
+}
+
+.clear {
+  clear: both;
+}
